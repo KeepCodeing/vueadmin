@@ -23,6 +23,7 @@ import {
   Switch,
   Tooltip,
   Dialog,
+  Tag
 } from 'element-ui'
 
 Vue.use(Button);
@@ -47,5 +48,6 @@ Vue.use(TableColumn);
 Vue.use(Switch);
 Vue.use(Tooltip);
 Vue.use(Dialog);
+Vue.use(Tag);
 
 Vue.prototype.$message = Message;

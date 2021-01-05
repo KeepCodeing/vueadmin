@@ -18,12 +18,24 @@ const UserList = {
   path: '/user/user_list',
 };
 
+const PowerList = {
+  component: () => import('../components/content/PowerList'),
+  path : '/power/power_list',
+};
+
+const RoleList = {
+  component: () => import('../components/content/RoleList'),
+  path: '/power/role_list'
+};
+
 const Home = {
   redirect: '/user/user_list',
   component: () => import('../components/content/Home'),
   path: '/home',
   children: [
-    UserList
+    UserList,
+    PowerList,
+    RoleList,
   ]
 };
 
