@@ -1,5 +1,5 @@
 # Vue admin system
-> 参考[视频](https://www.bilibili.com/video/BV1EE411B7SU)练手
+> 参考[视频](https://www.bilibili.com/video/BV1EE411B7SU)练手（半成品）
 
 ## 启动项目
 ```
@@ -41,5 +41,10 @@ npm run server
 
 ### UserList.vue
 用户列表组件。通过引用TableList渲染表格，使用插槽传入操作列。
+
+# 最后
+2021年1月5日21:49:23\
+还剩三个页面没写，先放着好了...这几天依次做了个人网站，B站手机端仿写，商城后台管理网站，每个项目都是两天，收获很多。\
+熟能生巧。
 
 

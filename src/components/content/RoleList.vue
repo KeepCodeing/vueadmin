@@ -1,6 +1,6 @@
 <template>
   <div class="role_list_box">
-    <Breadcrumb :title="['用户管理', '角色列表']"/>
+    <Breadcrumb :title="['权限管理', '角色列表']"/>
     <el-card>
       <SearchBox :show_search="false" :show_add="true"/>
       <TableList :data_list="$store.state.role_list_store.role_list" :data_obj="data_obj">

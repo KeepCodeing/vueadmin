@@ -9,3 +9,9 @@ export const LOAD_POWER_LIST = 'loadPowerList';
 
 export const GET_ROLE_LIST = 'getRoleList';
 export const LOAD_ROLE_LIST = 'loadRoleList';
+
+export const GET_GOODS_LIST = 'getGoodsList';
+export const LOAD_GOODS_LIST = 'loadGoodsList';
+
+export const GET_ORDER_LIST = 'getOrderList';
+export const LOAD_ORDER_LIST = 'loadOrderList';

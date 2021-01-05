@@ -28,6 +28,16 @@ const RoleList = {
   path: '/power/role_list'
 };
 
+const GoodsList = {
+  component: () => import('../components/content/GoodsList'),
+  path: '/goods/goods_list'
+};
+
+const OrderList = {
+  component: () => import('../components/content/OrderList'),
+  path: '/order/order_list',
+};
+
 const Home = {
   redirect: '/user/user_list',
   component: () => import('../components/content/Home'),
@@ -36,6 +46,8 @@ const Home = {
     UserList,
     PowerList,
     RoleList,
+    GoodsList,
+    OrderList,
   ]
 };
 
