@@ -19,7 +19,10 @@ import {
   Col,
   Row,
   Table,
-  TableColumn
+  TableColumn,
+  Switch,
+  Tooltip,
+  Dialog,
 } from 'element-ui'
 
 Vue.use(Button);
@@ -41,5 +44,8 @@ Vue.use(Col);
 Vue.use(Row);
 Vue.use(Table);
 Vue.use(TableColumn);
+Vue.use(Switch);
+Vue.use(Tooltip);
+Vue.use(Dialog);
 
 Vue.prototype.$message = Message;

@@ -32,7 +32,6 @@
 <style scoped>
   .el-container {
     height: 100%;
-    /*background: #2c3e50;*/
     background: antiquewhite;
   }
   .el-header {
@@ -44,7 +43,6 @@
     background: rgb(84, 92, 100);
   }
   .el-main {
-    /*background: red;*/
     padding: 30px 0 0 30px;
   }
 
